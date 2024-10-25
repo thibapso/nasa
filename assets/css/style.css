@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #0b0d17;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #1f2937;
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 5px 5px 10px #1f2937;
+}
+
+.navbar .nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .nav-list li {
+  display: inline;
+}
+
+.navbar .nav-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-list a:hover {
+  color: #2563eb;
+}
+
+.header {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #9ca3af;
+}
+
+.hero {
+  background-image: url("space-background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #d1d5db;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.data-section {
+  padding: 60px 0;
+  background-color: #111827;
+  text-align: center;
+}
+
+.data-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.data-section p {
+  font-size: 1rem;
+  color: #9ca3af;
+  margin-bottom: 40px;
+}
+
+.data-card {
+  background-color: #1f2937;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+  color: #ffffff;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.data-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.data-card p {
+  font-size: 1rem;
+}
+
+.mars-section {
+  padding: 60px 0;
+  background-color: #0b0d17;
+  text-align: center;
+}
+
+.mars-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.mars-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-card {
+  margin: 20px;
+  max-width: 400px;
+}
+
+.mars-image {
+  border-radius: 10px;
+  margin: 4rem 0 2rem 0;
+  height: 15rem;
+  width: 25rem;
+}
+
+.contact-section {
+  padding: 60px 0;
+  background-color: #1f2937;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-section button {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #1d4ed8;
+}
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  color: #9ca3af;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,7 @@
+Tema Escolhido: Exploração Espacial
+
+Imagem Selecionada: (As imagens estão no Visual Studio Code -> assets/img/1_mars.webp ou assets/img/2_mars.webp)
+
+Título: O céu é o limite
+
+Resumo sobre o Tema: Com o passar dos anos, enviamos sondas para descobrir outros planetas e monitorar asteroides, além de procurar por vida fora da Terra. Os dados da NASA nos ajudam a entender melhor o nosso sistema solar e o universo.

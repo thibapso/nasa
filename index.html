@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/img/icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>O céu é o limite</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#data">Asteroides</a></li>
+          <li><a href="#mars">Imagens de Marte</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="hero">
+      <div class="container">
+        <h1>O céu é o limite</h1>
+        <p>
+          Com o passar dos anos, enviamos sondas para descobrir outros planetas
+          e monitorar asteroides, além de procurar por vida fora da Terra. Os
+          dados da NASA nos ajudam a entender melhor o nosso sistema solar e o
+          universo.
+        </p>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h2>Exploração Espacial</h2>
+        <p>
+          <strong>API NEO (Near Earth Objects):</strong> Permite explorar
+          asteroides próximos da Terra, fornecendo dados como nome, diâmetro e
+          distância.
+        </p>
+        <a href="#data" class="cta-btn">Explorar Dados</a>
+      </div>
+    </section>
+
+    <section id="data" class="data-section">
+      <div class="container">
+        <h2>Asteroides Próximos à Terra</h2>
+        <p>
+          Com a API NEO (Near Earth Objects), você pode explorar asteroides que
+          estão próximos de nós e entender sua trajetória e composição.
+        </p>
+        <div class="data-card">
+          <h3>Asteroide 1</h3>
+          <p>Nome: <span id="asteroid-name">Ceres</span></p>
+          <p>Diâmetro: <span id="asteroid-size">946 km</span></p>
+          <p>
+            Distância da Terra:
+            <span id="asteroid-distance">1.6 milhões de km</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mars" class="mars-section">
+      <div class="container">
+        <h2>Imagens de Marte</h2>
+        <p>
+          Confira algumas imagens impressionantes tiradas pelos rovers da NASA
+          diretamente de Marte.
+        </p>
+        <div class="mars-gallery">
+          <div class="image-card">
+            <img
+              src="assets/img/1_mars.webp"
+              alt="Imagem de Marte"
+              class="mars-image"
+            />
+            <p>Imagem de Marte 1</p>
+          </div>
+          <div class="image-card">
+            <img
+              src="assets/img/2_mars.webp"
+              alt="Imagem de Marte"
+              class="mars-image"
+            />
+            <p>Imagem de Marte 2</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>
+          Quer saber mais? Envie-nos uma mensagem e fique por dentro das últimas
+          notícias sobre o espaço!
+        </p>
+        <form>
+          <input type="text" placeholder="Seu nome" />
+          <input type="email" placeholder="Seu e-mail" />
+          <textarea placeholder="Sua mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2024 Exploração Espacial - Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="assets/js/script.js"></script>
+</html>
