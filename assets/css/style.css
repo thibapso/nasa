@@ -217,3 +217,51 @@ body {
   color: #9ca3af;
   font-size: 0.9rem;
 }
+
+@media (max-width: 615px) {
+  .navbar .nav-list a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .navbar .nav-list a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mars-image {
+    border-radius: 10px;
+    margin: 4rem 0 2rem 0;
+    height: 10rem;
+    width: 20rem;
+  }
+
+  .navbar .container {
+    width: 100%;
+  }
+
+  .navbar .nav-list a {
+    padding: 4px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .mars-image {
+    border-radius: 10px;
+    margin: 4rem 0 2rem 0;
+    height: 8rem;
+    width: 16rem;
+  }
+
+  .navbar .container {
+    width: 100%;
+  }
+
+  .navbar .nav-list a {
+    padding: 2px 12px;
+    font-size: 0.6rem;
+  }
+}
