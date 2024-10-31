@@ -164,6 +164,11 @@ body {
   margin: 4rem 0 2rem 0;
   height: 15rem;
   width: 25rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.mars-image:hover {
+  transform: scale(1.1); /* Usa transform: scale para o efeito de zoom */
 }
 
 .contact-section {
